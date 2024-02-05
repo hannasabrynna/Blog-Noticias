@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev News</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="src/Components/CardNews.js" defer></script>
+    <!-- o defer faz com que o arquivo js so seja carregado após a leitura da DOM -->
+</head>
+
+<body>
+
+    <nav>
+        <div class="title">
+            <span>Dev News</span>
+        </div>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>News</li>
+            </a>
+            <a href="#">
+                <li>Login</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="text">
+            <h1>Dev News</h1>
+            <p>Confira as principais noticias do mundo dev.</p>
+        </div>
+
+        <div class="news">
+            <card-news 
+            autor="Nome do autor" 
+            title="Titulo da Noticia" 
+            link-url="www.google.com" 
+            photo=""
+            content="agsdgahag uhyaiug sddgigaigik u ghkiu usgigfiu hiuh ihfuhiwh e hiui fuhiufhiuwhoh.">
+
+            </card-news>
+
+            <div class="news">
+                <card-news 
+                autor="Nome do autor" 
+                title="Titulo da Noticia" 
+                link-url="www.google.com" 
+                photo=""
+                content="agsdgahag uhyaiug sddgigaigik u ghkiu usgigfiu hiuh ihfuhiwh e hiui fuhiufhiuwhoh.">
+    
+                </card-news>
+
+                <div class="news">
+                    <card-news 
+                    autor="Nome do autor" 
+                    title="Titulo da Noticia" 
+                    link-url="www.google.com" 
+                    photo=""
+                    content="agsdgahag uhyaiug sddgigaigik u ghkiu usgigfiu hiuh ihfuhiwh e hiui fuhiufhiuwhoh.">
+        
+                    </card-news>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
